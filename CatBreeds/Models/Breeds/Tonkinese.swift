@@ -6,9 +6,6 @@
 //  Copyright © 2018 Josh Adams. All rights reserved.
 //
 
-import Foundation
-import UIKit
-
 struct Tonkinese: Breed {
   var name: String {
     return "Tonkinese"
