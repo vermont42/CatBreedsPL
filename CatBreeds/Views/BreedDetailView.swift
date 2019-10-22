@@ -9,20 +9,20 @@
 import UIKit
 
 class BreedDetailView: UIView {
+  @UsesAutoLayout
   internal var photo: UIImageView = {
     let photo = UIImageView()
     photo.contentMode = .scaleAspectFit
-    photo.enableAutoLayout()
     return photo
   } ()
 
+  @UsesAutoLayout
   internal var fullDescription: UITextView = {
     let fullDescription = UITextView()
     fullDescription.textColor = Colors.white
     fullDescription.backgroundColor = Colors.blackish
     fullDescription.font = Fonts.body
     fullDescription.bounces = false
-    fullDescription.enableAutoLayout()
     return fullDescription
   } ()
 

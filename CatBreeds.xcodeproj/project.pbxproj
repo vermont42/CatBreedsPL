@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		03D1E2A2235F550B005E3265 /* UsesAutoLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03D1E2A1235F550B005E3265 /* UsesAutoLayout.swift */; };
 		E10884472032571B00AEBB1C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10884462032571B00AEBB1C /* AppDelegate.swift */; };
 		E10884492032571B00AEBB1C /* BreedBrowseVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E10884482032571B00AEBB1C /* BreedBrowseVC.swift */; };
 		E108844E2032571C00AEBB1C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E108844D2032571C00AEBB1C /* Assets.xcassets */; };
@@ -33,7 +34,6 @@
 		E174E5FD206C497D00E00454 /* MainTabBarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E174E5FC206C497D00E00454 /* MainTabBarVC.swift */; };
 		E174E5FF206D5E0500E00454 /* BreedBrowseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E174E5FE206D5E0500E00454 /* BreedBrowseView.swift */; };
 		E174E601206E866B00E00454 /* CreditsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E174E600206E866B00E00454 /* CreditsView.swift */; };
-		E174E6032071836F00E00454 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E174E6022071836F00E00454 /* UIViewExtension.swift */; };
 		E174E605207183BF00E00454 /* NSLayoutConstraintExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E174E604207183BF00E00454 /* NSLayoutConstraintExtension.swift */; };
 		E181A993203A2B1600F14842 /* CreditsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E181A992203A2B1600F14842 /* CreditsVC.swift */; };
 		E181A996203A30BD00F14842 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E181A994203A30BD00F14842 /* LaunchScreen.storyboard */; };
@@ -45,6 +45,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		03D1E2A1235F550B005E3265 /* UsesAutoLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UsesAutoLayout.swift; sourceTree = "<group>"; };
 		E10884432032571B00AEBB1C /* CatBreeds.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CatBreeds.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E10884462032571B00AEBB1C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E10884482032571B00AEBB1C /* BreedBrowseVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreedBrowseVC.swift; sourceTree = "<group>"; };
@@ -73,7 +74,6 @@
 		E174E5FC206C497D00E00454 /* MainTabBarVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarVC.swift; sourceTree = "<group>"; };
 		E174E5FE206D5E0500E00454 /* BreedBrowseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreedBrowseView.swift; sourceTree = "<group>"; };
 		E174E600206E866B00E00454 /* CreditsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditsView.swift; sourceTree = "<group>"; };
-		E174E6022071836F00E00454 /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
 		E174E604207183BF00E00454 /* NSLayoutConstraintExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSLayoutConstraintExtension.swift; sourceTree = "<group>"; };
 		E181A992203A2B1600F14842 /* CreditsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditsVC.swift; sourceTree = "<group>"; };
 		E181A994203A30BD00F14842 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -187,7 +187,7 @@
 				E174E604207183BF00E00454 /* NSLayoutConstraintExtension.swift */,
 				E181A99F203B717200F14842 /* SoundManager.swift */,
 				E13D3E932041D49B00A2BDFC /* StringExtensions.swift */,
-				E174E6022071836F00E00454 /* UIViewExtension.swift */,
+				03D1E2A1235F550B005E3265 /* UsesAutoLayout.swift */,
 			);
 			path = Misc;
 			sourceTree = "<group>";
@@ -282,6 +282,7 @@
 				E108846A2038DF5400AEBB1C /* Savannah.swift in Sources */,
 				E10884742038E61000AEBB1C /* BreedCell.swift in Sources */,
 				E108845E2038DDD800AEBB1C /* Tonkinese.swift in Sources */,
+				03D1E2A2235F550B005E3265 /* UsesAutoLayout.swift in Sources */,
 				E13D3E942041D49B00A2BDFC /* StringExtensions.swift in Sources */,
 				E174E605207183BF00E00454 /* NSLayoutConstraintExtension.swift in Sources */,
 				E10884622038DF0E00AEBB1C /* Bengal.swift in Sources */,
@@ -297,7 +298,6 @@
 				E13D3E982041D57F00A2BDFC /* Fonts.swift in Sources */,
 				E19794382076D7610015D490 /* BreedDetailView.swift in Sources */,
 				E13D3E922041D41F00A2BDFC /* Credits.swift in Sources */,
-				E174E6032071836F00E00454 /* UIViewExtension.swift in Sources */,
 				E181A9A0203B717200F14842 /* Sound.swift in Sources */,
 				E108846E2038DF7E00AEBB1C /* TurkishAngora.swift in Sources */,
 				E108845B20325A6600AEBB1C /* Breeds.swift in Sources */,

@@ -9,18 +9,18 @@
 import UIKit
 
 class BreedCell: UITableViewCell {
+  @UsesAutoLayout
   private var photo: UIImageView = {
     let photo = UIImageView()
     photo.contentMode = .scaleAspectFit
-    photo.enableAutoLayout()
     return photo
   } ()
 
+  @UsesAutoLayout
   private var name: UILabel = {
     let name = UILabel()
     name.textColor = Colors.white
     name.font = Fonts.body
-    name.enableAutoLayout()
     return name
   } ()
 

@@ -9,10 +9,10 @@
 import UIKit
 
 class BreedBrowseView: UIView {
-  internal let table: UITableView = {
+  @UsesAutoLayout
+  internal var table: UITableView = {
     let table = UITableView()
     table.backgroundColor = Colors.blackish
-    table.enableAutoLayout()
     return table
   } ()
 

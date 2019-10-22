@@ -9,31 +9,31 @@
 import UIKit
 
 class CreditsView: UIView {
+  @UsesAutoLayout
   internal var credits: UITextView = {
     let credits = UITextView()
     credits.textColor = Colors.white
     credits.backgroundColor = Colors.blackish
     credits.font = Fonts.body
-    credits.enableAutoLayout()
     credits.isEditable = false
     return credits
   } ()
 
-  internal let meow1: UIButton = {
+  @UsesAutoLayout
+  internal var meow1: UIButton = {
     let meow1 = UIButton()
     meow1.setTitle("Meow 1", for: .normal)
     meow1.titleLabel?.font = Fonts.button
     meow1.setTitleColor(Colors.greenish, for: .normal)
-    meow1.enableAutoLayout()
     return meow1
   } ()
 
-  internal let meow2: UIButton = {
+  @UsesAutoLayout
+  internal var meow2: UIButton = {
     let meow2 = UIButton()
     meow2.setTitle("Meow 2", for: .normal)
     meow2.titleLabel?.font = Fonts.button
     meow2.setTitleColor(Colors.greenish, for: .normal)
-    meow2.enableAutoLayout()
     return meow2
   } ()
 
